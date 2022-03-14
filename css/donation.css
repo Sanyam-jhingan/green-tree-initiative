@@ -28,8 +28,9 @@ header {
 }
 
 #donation-form {
-  background: url("../img/donation/annie-spratt-427340-unsplash.png") 0% 0%
-    no-repeat padding-box;
+  background: url("../img/donation/annie-spratt-427340-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
