@@ -788,7 +788,7 @@ footer .funky-heading {
 
   header .header-links .other-links ul {
     flex-direction: row;
-    width: 100%;;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
   }
@@ -812,13 +812,13 @@ footer .funky-heading {
   #issue .description {
     display: flex;
     width: 544px;
-height: 416px;
-justify-content: center;
-margin-left: 64px;
+    height: 416px;
+    justify-content: center;
+    margin-left: 64px;
   }
 
   .issue-heading {
-    width: 416px;;
+    width: 416px;
     height: 221px;
     margin-left: 64px;
     text-align: left;
@@ -830,7 +830,7 @@ margin-left: 64px;
   }
 
   #issue .stack-item-top-issue {
-    margin-left:10%;
+    margin-left: 10%;
     top: 50px;
   }
 
@@ -846,13 +846,13 @@ margin-left: 64px;
   }
 
   .stack-img-top img {
-    top:300px;
+    top: 300px;
   }
 
   .stack-img-top-1 img {
-    margin-left:10%;
+    margin-left: 10%;
   }
-  
+
   .stack-img-top-3 img {
     margin-right: 10%;
   }
@@ -911,5 +911,4 @@ margin-left: 64px;
     margin-left: 20%;
     align-self: flex-start;
   }
-
 }

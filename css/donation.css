@@ -52,7 +52,7 @@ header {
   width: 312px;
   height: 79px;
   text-align: center;
-  font: normal normal normal 32px/46px Flood Std;
+  font: normal normal normal 32px/46px flood-std;
   letter-spacing: 0px;
   color: #070707;
 }
@@ -145,7 +145,7 @@ header {
 }
 
 .payment-btn {
-    align-self: center;
+  align-self: center;
 }
 
 .payment-btn button {
@@ -158,70 +158,70 @@ header {
 }
 
 .form-details {
-    display: flex;
-    flex-flow: column wrap;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .go-back a {
-    color:#c1f7d5;
+  color: #c1f7d5;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  footer .footer-row-1 {
-    display: flex;
-    flex-flow: row wrap;
-    margin: 67px 32px;
-    gap: 67px;
-    justify-content: space-between;
-  }
-  
-  footer .footer-row-1 .heading {
-    text-align: left;
-    width: 94px;
-    font: normal normal bold 18px/22px Helvetica;
-    letter-spacing: 0px;
-    color: #354463;
-  }
-  
-  footer .footer-row-1 .contact-us {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 126px;
-    height: 96px;
-  }
-  
-  footer .footer-row-1 .footer-heading {
-    font: normal normal normal 11px/13px Helvetica;
-    letter-spacing: 0.44px;
-    color: #354463;
-  }
-  
-  footer .footer-row-1 .contact-us .address {
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-  }
-  
-  footer .footer-row-1 .links a {
-    text-align: left;
-    text-decoration: underline;
-    font: normal normal 300 14px/24px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-  }
-  
-  footer .learn-more {
-    padding-right: 46px;
-  }
-  
-  footer .funky-heading {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 31px;
-    color: #354463;
-  }
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-row-1 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 67px 32px;
+  gap: 67px;
+  justify-content: space-between;
+}
+
+footer .footer-row-1 .heading {
+  text-align: left;
+  width: 94px;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+footer .footer-row-1 .contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 126px;
+  height: 96px;
+}
+
+footer .footer-row-1 .footer-heading {
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+  color: #354463;
+}
+
+footer .footer-row-1 .contact-us .address {
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+}
+
+footer .footer-row-1 .links a {
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 300 14px/24px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+}
+
+footer .learn-more {
+  padding-right: 46px;
+}
+
+footer .funky-heading {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 31px;
+  color: #354463;
+}
