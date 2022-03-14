@@ -838,6 +838,10 @@ footer .funky-heading {
     align-items: center;
   }
 
+  #take-action .cards {
+    justify-content: space-around;
+  }
+
   .what-we-do-cards {
     flex-direction: row;
     justify-content: space-around;
