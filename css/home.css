@@ -1,0 +1,915 @@
+@import url("http://db.onlinewebfonts.com/c/bfbdc6a04609bff0d5ccdfcf6b766d95?family=Flood+Std");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+a,
+li {
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-link {
+  margin-left: 32px;
+  margin-top: 45px;
+}
+
+.home-link a {
+  font: normal normal bold 18px/22px Helvetica;
+  color: #354463;
+  width: 125px;
+  height: 40px;
+}
+
+.other-links {
+  margin-right: 38px;
+  margin-top: 33px;
+}
+
+.other-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.other-links a {
+  font: normal normal 300 14px/20px Helvetica;
+  color: #354463;
+  letter-spacing: -0.14px;
+  width: 55px;
+  height: 14px;
+}
+
+.donate-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  margin-top: 29px;
+}
+.donate-btn button {
+  padding-left: 101px;
+  padding-right: 97px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: left;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  border: none;
+}
+
+#issue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 592px;
+  background: url("../img/home/annie-spratt-135307-unsplash.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1; /*0.76*/
+  background-size: cover;
+  background-position-x: right;
+  position: relative;
+}
+
+.funky-heading {
+  display: inline-block;
+  text-align: left;
+  font: normal normal normal 44px/46px Flood Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 32px 163px 0 32px;
+}
+
+#issue .description {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  height: 240px;
+  width: 312px;
+  background-color: white;
+  align-self: center;
+  margin-bottom: 48px;
+}
+
+.stack-item-top-issue {
+  position: absolute;
+  height: 40px;
+  width: 160px;
+  top: 284px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 11px 0 11px 2px;
+}
+
+.issue-heading {
+  width: 278px;
+  height: 78px;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  margin: 56px 0 0 19px;
+}
+
+.description-link {
+  height: 42px;
+  width: 248px;
+  margin-left: 32px;
+  background: url("../img/home/Read\ more\ about\ this\ environmental\ and\ social\ cause.png")
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.stack-item-top-take-action {
+  position: absolute;
+  top: 567px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 160px;
+  background: #354463 0% 0% no-repeat padding-box;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.56px;
+  font: normal normal normal 14px/17px Helvetica;
+  padding-top: 11px;
+}
+
+#take-action {
+  height: 328px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+}
+
+#take-action .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 144px;
+}
+
+.card-heading {
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+.card-desc {
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+}
+
+#what-we-do {
+  display: flex;
+  flex-direction: column;
+  background: #354463 0% 0% no-repeat padding-box;
+  position: relative;
+}
+
+.stack-item-top-what-we-do {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 160px;
+  background-color: white;
+  text-align: center;
+  padding-top: 11px;
+}
+
+.what-we-do-desc {
+  width: 302px;
+  height: 134px;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin: 105px auto 82px auto;
+  padding: 0px;
+}
+
+.what-we-do-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
+  padding-bottom: 32px;
+}
+
+#what-we-do .card {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  gap: 0;
+  align-items: center;
+  width: 312px;
+  height: 415px;
+  margin: 0 32px 0 32px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.stack-img-top img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 176px;
+  width: 248px;
+}
+
+.stack-img-top-1 img {
+  top: 288px;
+}
+
+.stack-img-top-2 img {
+  top: 768px;
+}
+
+.stack-img-top-3 img {
+  bottom: 304px;
+}
+
+#what-we-do .card .card-heading {
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+#what-we-do .card .card-desc {
+  width: 242px;
+  height: 94px;
+  margin-top: 22px;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  text-align: center;
+}
+
+#what-we-do .card .card-btn button {
+  width: 152px;
+  height: 40px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  border: none;
+  margin: 32px 0;
+}
+
+#info {
+  height: 1008px;
+  background: url("../img/home/did-you-know-background.png") 0% 0% no-repeat
+    padding-box;
+  background-position: bottom left;
+  background-size: cover;
+  position: relative;
+}
+
+#info .heading-and-btn .funky-heading {
+  width: 312px;
+  height: 192px;
+  padding: 64px 0 0 32px;
+}
+
+.issue-btn button {
+  width: 152px;
+  height: 40px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  border: none;
+  margin: 15px 32px 0 32px;
+  text-align: center;
+  font: normal normal bold 16px/20px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+#info .cards {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  height: 624px;
+  margin-top: 80px;
+}
+
+#info .cards .card {
+  display: flex;
+  flex-flow: column;
+  width: 312px;
+  height: 136px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+#info .stack-item-top {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  top: 345px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #354463 0% 0% no-repeat padding-box;
+  text-align: center;
+  padding-top: 11px;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+}
+
+#info .cards .card .card-row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+#info .cards .card .card-row-1 .card-heading {
+  text-align: left;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  padding-left: 32px;
+  padding-top: 10px;
+}
+
+#info .cards .card .social-icon {
+  width: 32px;
+  height: 32px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  margin-top: 5px;
+  margin-right: 32px;
+}
+
+#info .cards .card .card-row-1 .social-icon img {
+  padding: 9px 8px;
+}
+
+#info .cards .card .card-row-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+#info .cards .card .card-row-2 .card-desc {
+  width: 198px;
+  height: 34px;
+  padding-left: 32px;
+}
+
+#info .cards .card .card-row-2 .social-icon img {
+  padding: 8px 12px;
+}
+
+#stories {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: relative;
+}
+
+#stories .stack-item-top {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  top: 36px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background: #354463 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  padding-top: 11px;
+}
+
+.stories-img {
+  width: 312px;
+  height: 312px;
+  margin-top: 56px;
+  margin-bottom: 32px;
+}
+
+.quote {
+  width: 312px;
+  height: 296px;
+  background: #354463 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-top: 29px;
+}
+
+.quote-text {
+  width: 248px;
+  height: 203px;
+  margin-left: 32px;
+}
+
+.quote .name-about {
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+  padding-top: 20px;
+}
+
+.stories-btn {
+  width: 156px;
+  height: 40px;
+  margin-top: 32px;
+  margin-bottom: 72px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  border: none;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+#subscribe-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+}
+
+#subscribe-section .heading {
+  margin-top: 36px;
+  max-width: 80%;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+#subscribe-section .sub-wrapper {
+  margin: 30px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#subscribe-section .sub-wrapper input {
+  width: 192px;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  border: none;
+  text-align: center;
+}
+
+#subscribe-section .sub-wrapper button {
+  width: 112px;
+  height: 40px;
+  background: #354463 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  border: none;
+  font: normal normal bold 16px/19px Helvetica;
+  letter-spacing: 0px;
+  color: #c1f7d5;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-row-1 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 67px 32px;
+  gap: 67px;
+  justify-content: space-between;
+}
+
+footer .footer-row-1 .heading {
+  text-align: left;
+  width: 94px;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+footer .footer-row-1 .contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 126px;
+  height: 96px;
+}
+
+footer .footer-row-1 .footer-heading {
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+  color: #354463;
+}
+
+footer .footer-row-1 .contact-us .address {
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+}
+
+footer .footer-row-1 .links a {
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 300 14px/24px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+}
+
+footer .learn-more {
+  padding-right: 46px;
+}
+
+footer .funky-heading {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 31px;
+  color: #354463;
+}
+
+@media (max-width: 1100px) and (min-width: 756px) {
+  header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  header .header-links {
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  header .header-links .home-link {
+    margin: 20px 0 0 66px;
+  }
+
+  header .header-links .other-links ul {
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+  }
+
+  header .header-links ul li a {
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+  }
+
+  header button {
+    margin-right: 64px;
+  }
+
+  #issue .description {
+    width: 640px;
+    height: 309px;
+    gap: 0;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+  }
+
+  .stack-item-top-issue {
+    top: 243px;
+  }
+
+  .issue-heading {
+    font: normal normal bold 36px/46px Helvetica;
+    width: 100%;
+    height: 60%;
+    margin: 59px 0 0 0;
+  }
+
+  .description-link {
+    margin-left: 35%;
+  }
+
+  #take-action {
+    height: 380px;
+  }
+
+  .card-heading {
+    font: normal normal bold 22px/28px Helvetica;
+  }
+
+  .card-desc {
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+  }
+
+  .card {
+    width: 256px;
+    height: 52px;
+  }
+
+  #take-action .cards {
+    gap: 30px;
+  }
+
+  .stack-item-top-what-we-do {
+    margin-left: 64px;
+  }
+
+  .what-we-do-desc {
+    font: normal normal bold 36px/46px Helvetica;
+    width: 640px;
+    height: 140px;
+    text-align: left;
+  }
+
+  #what-we-do .card {
+    width: 85%;
+    height: 280px;
+    padding: 36px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+
+  .stack-img-top img {
+    width: 288px;
+    height: 201px;
+    margin-left: 96px;
+  }
+
+  .stack-img-top-1 img {
+    top: 298px;
+  }
+
+  .stack-img-top-2 img {
+    top: 630px;
+  }
+
+  .stack-img-top-3 img {
+    bottom: 150px;
+  }
+
+  #what-we-do .card .card-btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #info {
+    display: flex;
+    gap: 65px;
+    height: 100%;
+  }
+
+  #info .stack-item-top {
+    top: 64px;
+    left: 200px;
+  }
+
+  #info .cards {
+    width: 100%;
+  }
+
+  #info .cards .card {
+    width: 93%;
+    height: 22%;
+  }
+
+  #info .cards .card .card-row-1 .card-heading {
+    font: normal normal bold 36px/46px Helvetica;
+  }
+
+  .stories-img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .quote {
+    position: absolute;
+    width: 576px;
+    width: 70%;
+    text-align: left;
+    top: 55%;
+    height: auto;
+  }
+
+  .quote-text {
+    margin: auto;
+    width: 489px;
+    height: auto;
+  }
+
+  .name-about {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 32px;
+  }
+
+  .stories-btn {
+    margin-left: 20%;
+    align-self: flex-start;
+  }
+
+  #subscribe-section .sub-wrapper input {
+    width: 45%;
+  }
+
+  #subscribe-section .sub-wrapper button {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1100px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 32px;
+  }
+
+  .header-links {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header .header-links .other-links {
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+
+  header .header-links .other-links ul {
+    flex-direction: row;
+    width: 100%;;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .home-link {
+    width: 50%;
+  }
+
+  .home-link a {
+    font: normal normal bold 22px/28px Helvetica;
+  }
+
+  .other-links a {
+    font: normal normal 300 16px/24px Helvetica;
+  }
+
+  #issue {
+    flex-direction: row-reverse;
+  }
+
+  #issue .description {
+    display: flex;
+    width: 544px;
+height: 416px;
+justify-content: center;
+margin-left: 64px;
+  }
+
+  .issue-heading {
+    width: 416px;;
+    height: 221px;
+    margin-left: 64px;
+    text-align: left;
+    font: normal normal bold 44px/56px Helvetica;
+  }
+
+  .description-link {
+    margin-left: 64px;
+  }
+
+  #issue .stack-item-top-issue {
+    margin-left:10%;
+    top: 50px;
+  }
+
+  #issue .funky-heading {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .what-we-do-cards {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .stack-img-top img {
+    top:300px;
+  }
+
+  .stack-img-top-1 img {
+    margin-left:10%;
+  }
+  
+  .stack-img-top-3 img {
+    margin-right: 10%;
+  }
+
+  #info {
+    display: flex;
+    gap: 65px;
+    height: 100%;
+  }
+
+  #info .stack-item-top {
+    top: 64px;
+    left: 200px;
+  }
+
+  #info .cards {
+    width: 100%;
+  }
+
+  #info .cards .card {
+    width: 75%;
+    height: 22%;
+  }
+
+  #info .cards .card .card-row-1 .card-heading {
+    font: normal normal bold 36px/46px Helvetica;
+  }
+
+  .stories-img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .quote {
+    position: absolute;
+    width: 576px;
+    width: 70%;
+    text-align: left;
+    top: 55%;
+    height: auto;
+  }
+
+  .quote-text {
+    margin: auto;
+    width: 489px;
+    height: auto;
+  }
+
+  .name-about {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 32px;
+  }
+
+  .stories-btn {
+    margin-left: 20%;
+    align-self: flex-start;
+  }
+
+}
